@@ -1,0 +1,158 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+body {
+
+  height: 100%;
+    
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/004/216/831/original/3d-world-news-background-loop-free-video.jpg)
+  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ 
+.videos {
+
+  
+  width: 100%;
+
+  height: 100%;
+ 
+  padding: 20px 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.video {
+  width: 310px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.img-box {
+ 
+  width: 100%;
+  height: 170px;
+  
+}
+
+.img-box img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+  
+
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #000;
+
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  transition: .5s;
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+}
+
+header nav ul li a {
+  padding: 15px;
+  color: #000;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background: #000;
+  color: #fff;
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+}
+
+nav ul li ul li {
+width: 100%;
+border: 1px solid rgba(0,0,0,.1);
+}
+
+nav ul li ul li ul {
+  left: 100px;
+  top: 0;
+
+}
+
+nav ul li:hover > ul {
+  display: initial;
+
+}
+
+
